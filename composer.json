@@ -1,19 +1,21 @@
 {
-    "name": "bitget/bitget-api-sdk",
-    "description": "Bitget API SDK",
+    "name": "zonbloginc/bitget",
+    "type": "library",
+    "description": "Bitget API Like the official document interface, Support for arbitrary extension.",
     "license": "MIT",
+    "keywords": ["bitget","coinbene","bigone","gate","coinbase","bitmex", "binance", "okex", "huobi","kucoin","kumex"],
     "authors": [
         {
-            "name": "Your Name",
-            "email": "your@email.com"
+            "name": "zonbloginc",
+            "email": "none@none.com"
         }
     ],
-    "require": {
-        "php": "^7.4"
-    },
     "autoload": {
         "psr-4": {
-            "Bitget\\": "src/"
+            "Zon\\Bitget\\": "./bitget-php-sdk-api/src/"
         }
+    },
+    "require": {
+        "php": ">=7.0"
     }
 }
